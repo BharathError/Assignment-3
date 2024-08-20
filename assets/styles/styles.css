@@ -1,0 +1,225 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 40px 0;
+}
+
+.navbar .logo {
+    float: left;
+    margin-left: 20px;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar .nav-links li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar .nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero Section Styles */
+.hero {
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* About Section Styles */
+.about {
+    background-color: #ffebcd; /* Unique background color */
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.about h2 {
+    color: #8b4513; /* Unique text color */
+}
+
+.about ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Portfolio (Projects) Section Styles */
+.portfolio {
+    background-color: #e6e6fa; /* Unique background color */
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.portfolio h2 {
+    color: #4b0082; /* Unique text color */
+}
+
+.grid {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1;
+}
+
+.portfolio .btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #4b0082;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.portfolio .btn:hover {
+    background-color: #6a0dad;
+    transform: scale(1.05);
+}
+
+/* Contact Section Styles */
+.contact {
+    background-color: #e0ffff; /* Unique background color */
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    animation: bounceIn 1s ease-in-out;
+}
+
+.contact h2 {
+    color: #20b2aa; /* Unique text color */
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.contact form {
+    animation: slideInRight 1.5s ease-in-out;
+}
+
+.contact form input,
+.contact form textarea {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.contact form button {
+    background-color: #20b2aa;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.contact form button:hover {
+    background-color: #2e8b57;
+    transform: scale(1.05);
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Certifications, Achievements, and Strengths Styles */
+.certifications,
+.achievements,
+.strengths {
+    background-color: #ffe4e1; /* Unique background color */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.certifications h3,
+.achievements h3,
+.strengths h3 {
+    color: #a52a2a; /* Unique text color */
+}
+
+.achievements .btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #4b0082;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.achievements .btn:hover {
+    background-color: #6a0dad;
+    transform: scale(1.05);
+}
+
+/* Animations */
+@keyframes bounceIn {
+    0% { transform: scale(0.3); opacity: 0; }
+    50% { opacity: 1; }
+    100% { transform: scale(1); }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideInRight {
+    from { transform: translateX(100%); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4b0082;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn:hover {
+    background-color: #6a0dad;
+    transform: scale(1.05);
+}
